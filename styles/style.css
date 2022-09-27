@@ -17,10 +17,12 @@
   background-color: #f2f2f2;
   z-index: 0;
 }
-
-.logo_place_header {
+.logo {
   width: 228px;
   height: 32px;
+}
+
+.logo_place_header {
   position: absolute;
   top: 30px;
   left: 64px;
@@ -177,6 +179,7 @@
   font-size: 18px;
   font-weight: normal;
 }
+
 /* Секция Метод Фейнмана */
 .feynman {
   position: relative;
@@ -197,7 +200,6 @@
   text-align: center;
   margin-top: 100px;
 }
-
 
 .feynman__subtitle {
   margin: 0;
@@ -226,6 +228,7 @@
   height: 637px;
   z-index: -1;
 }
+
 /* Секция Принципы Обучения от Джоша Кауфмана */
 .kaufman {
   background-color: #1f1f1f;
@@ -237,54 +240,34 @@
   align-items: center;
 }
 
-.section-title_theme-dark {
+.section-title_theme_dark {
   color: white;
-  line-height: 1.15;
-  font-size: 60px;
-  font-weight: 600;
-  width: 60%;
   text-align: center;
   margin-top: 90px;
   margin-bottom: 0px;
 }
 
-.section-subtitle_theme-dark {
+.section-subtitle_theme_dark {
   color: white;
   width: 60%;
-  line-height: 34px;
-  font-size: 24px;
-  font-weight: normal;
   text-align: center;
-  margin-top: 20px;
 }
 
 /* Таблица с принципами обучения */
-.table_theme-dark {
+
+.table_theme_dark {
   margin: 0 auto 90px;
-  display: flex;
-  flex-flow: row wrap;
-  width: 1100px;
-  justify-content: space-between;
 }
 
-.table__cell_theme-dark {
+.table__cell_theme_dark {
   width: 200px;
   color: white;
   margin-right: 0;
   margin-top: 80px;
 }
 
-.table-heading__theme-dark {
-  line-height: 1.15;
-  font-size: 24px;
-  font-weight: 600;
-}
-
-.table__text_theme-dark {
-  margin-top: 20px;
+.table__text_theme_dark {
   line-height: 1.12;
-  font-size: 18px;
-  font-weight: normal;
 }
 
 .kaufman__triangle {
@@ -323,7 +306,7 @@
   height: 32px;
 }
 
-.footer__column_content-copyright {
+.footer__column_content_copyright {
   flex-basis: 711px;
   justify-content: space-between;
 }
@@ -340,7 +323,7 @@
   font-weight: 600;
 }
 
-.footer__column_content-info {
+.footer__column_content_info {
   margin: 0;
   text-align: left;
   align-items: flex-start;
