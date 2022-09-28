@@ -272,12 +272,15 @@
 
 .kaufman__triangle {
   position: absolute;
+  width: 877px;
+  height: 877px;
   top: 0px;
   right: -210px;
   z-index: -1;
   background-image: url(../images/kaufman-triangle.svg);
   background-position: center top;
   background-size: 877px 877px;
+
 }
 
 /* Подвал сайта */
@@ -315,6 +318,7 @@
   margin-bottom: 18px;
   text-align: start;
 }
+
 .footer__column-heading {
   margin: 0;
   line-height: 30px;
