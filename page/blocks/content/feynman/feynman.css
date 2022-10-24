@@ -1,0 +1,50 @@
+
+
+/* Секция Метод Фейнмана */
+.feynman {
+  position: relative;
+  min-height: 890px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f2f2f2;
+  z-index: 0;
+}
+
+.feynman__title {
+  margin: 0;
+  line-height: 1.15;
+  font-size: 120px;
+  font-weight: 600;
+  width: 648px;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.feynman__subtitle {
+  margin: 0;
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+  margin-top: 70px;
+}
+
+.feynman__link {
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+  text-decoration: none;
+  color: #2f80ed;
+  position: absolute;
+  top: 50%;
+  right: 48px;
+}
+
+.feynman__img {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  width: 867px;
+  height: 637px;
+  z-index: -1;
+}

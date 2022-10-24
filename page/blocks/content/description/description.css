@@ -1,0 +1,47 @@
+.description {
+  display: flex;
+  justify-content: center;
+}
+
+.two-columns {
+  display: flex;
+  width: 80%;
+  margin-top: 100px;
+  margin-bottom: 0px;
+  justify-content: space-between;
+}
+
+/* Главные проблемы в обучении */
+.two-columns__brief {
+  margin: 0;
+  display: flex;
+  width: 175px;
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+  text-align: left;
+  color: #2f80ed;
+}
+/* Основной текст в таблице о главных проблемах в обучении */
+.two-columns__main-text {
+  min-width: 784px;
+  width: 80%;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.two-columns__paragraph:first-child {
+  margin-top: 0px;
+  margin-bottom: 30px;
+}
+.two-columns__paragraph:last-child {
+  margin-bottom: 0px;
+  margin-top: 30px;
+}
+
+.two-columns__span-accent {
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: 600;
+}
