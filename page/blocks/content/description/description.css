@@ -31,13 +31,14 @@
   font-weight: normal;
 }
 
-.two-columns__paragraph:first-child {
-  margin-top: 0px;
-  margin-bottom: 30px;
-}
 .two-columns__paragraph:last-child {
   margin-bottom: 0px;
   margin-top: 30px;
+}
+
+.two-columns__paragraph:first-child {
+  margin-top: 0px;
+  margin-bottom: 30px;
 }
 
 .two-columns__span-accent {
