@@ -1,0 +1,10 @@
+.oakley {
+  display: flex;
+  justify-content: center;
+  background-color: #f2f2f2;
+  padding-top: 160px;
+}
+
+.two-columns__paragraph_oakley {
+  margin-top: 0px;
+}

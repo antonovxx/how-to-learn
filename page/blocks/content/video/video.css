@@ -1,0 +1,41 @@
+/* Секция видео*/
+.video {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+  margin: 0px auto -60px;
+}
+
+.section-title {
+  margin: 0;
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: 600;
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.video__iframes {
+  padding: 0px;
+  margin: 50px auto 0px;
+  z-index: 1;
+}
+
+.video__iframe {
+  width: 515px;
+  height: 316px;
+}
+
+.video__iframe:first-of-type {
+  margin-right: 20px;
+}
+
+.section-subtitle {
+  margin: 0;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+}

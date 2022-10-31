@@ -6,7 +6,6 @@
   display: flex;
   flex-direction: column;
   position: relative;
-  overflow: hidden;
   align-items: center;
 }
 
@@ -47,7 +46,8 @@
   top: 0px;
   right: -210px;
   z-index: -1;
-  background-image: url(../images/kaufman-triangle.svg);
+  background-image: url(../../../../images/kaufman-triangle.svg);
   background-position: center top;
   background-size: 877px 877px;
+  animation: rotation 20s linear infinite normal;
 }
